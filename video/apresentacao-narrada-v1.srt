@@ -1,0 +1,320 @@
+1
+00:00:01,500 --> 00:00:12,996
+Bom dia a todos. Hoje eu vou conduzir uma aula de instalações elétricas industriais a partir de uma pergunta bem prática: o que um técnico faz quando chega uma máquina nova na fábrica?
+
+2
+00:00:13,346 --> 00:00:22,394
+Nós vamos sair da placa do motor e chegar a um painel seguro: dimensionar, proteger, ligar e manter o circuito de um motor trifásico.
+
+3
+00:00:22,744 --> 00:00:29,416
+Essas três ondas são as três fases que alimentam o nosso motor, defasadas de cento e vinte graus.
+
+4
+00:00:31,666 --> 00:00:49,258
+Imaginem a situação. Segunda-feira, sete da manhã. A fábrica instalou uma esteira nova na Linha três, acionada por um motor trifásico de sete e meio cavalos, trezentos e oitenta volts, quatro polos, com fator de serviço de um vírgula quinze.
+
+5
+00:00:49,608 --> 00:01:01,584
+O quadro geral fica a quarenta metros. O cabo vai passar em eletroduto aparente, junto com mais dois circuitos, e o galpão chega a quarenta graus, por causa das estufas.
+
+6
+00:01:01,934 --> 00:01:12,998
+Vocês são a equipe de manutenção, e a esteira só liga depois que vocês derem o sinal verde. Então, primeira pergunta para a turma: que cabo vocês usariam?
+
+7
+00:01:14,348 --> 00:01:25,100
+Pois é. Quase sempre a resposta é dois e meio milímetros quadrados, o cabo de sempre. Eu vou registrar esse palpite, e no final da aula nós voltamos nele.
+
+8
+00:01:25,450 --> 00:01:41,290
+Reparem no brilho vermelho do cabo: um cabo subdimensionado esquenta, envelhece a isolação e pode provocar um incêndio. Para liberar a esteira, temos três perguntas: qual cabo, qual proteção, e como ligar e intervir com segurança.
+
+9
+00:01:43,540 --> 00:01:55,612
+Para responder, vamos seguir seis decisões, as mesmas de qualquer projeto ou manutenção de motor: corrente, condutor, proteção, diagrama, segurança e manutenção.
+
+10
+00:01:55,962 --> 00:02:09,090
+O objetivo é que, ao final, cada um de vocês consiga dimensionar, proteger e manter esse circuito, aplicando a NBR cinquenta e quatro dez, a NR dez e os critérios do livro do Mamede.
+
+11
+00:02:11,340 --> 00:02:19,452
+Tudo começa na placa do motor. Ela é a carteira de identidade da máquina, e tudo o que nós precisamos está aqui.
+
+12
+00:02:19,802 --> 00:02:35,690
+Os campos em amarelo entram no cálculo: potência, tensão, corrente, fator de serviço, a relação entre a corrente de partida e a nominal, o rendimento e o fator de potência. Esses valores vêm da Tabela seis ponto três do Mamede.
+
+13
+00:02:36,040 --> 00:02:45,016
+A corrente nominal está na placa: onze vírgula nove ampères, em trezentos e oitenta volts. É esse o valor do projeto.
+
+14
+00:02:45,366 --> 00:02:58,542
+E a equação do Mamede mostra de onde ele vem: setecentos e trinta e seis vezes a potência em cavalos, dividido por raiz de três, vezes a tensão, vezes o rendimento, vezes o fator de potência.
+
+15
+00:03:00,092 --> 00:03:06,500
+Se eu troco para um motor de dez cavalos, a placa muda junto, com os dados reais da tabela.
+
+16
+00:03:07,850 --> 00:03:16,634
+Voltando ao nosso motor. Na partida, a corrente sobe para sete vezes a nominal: cerca de oitenta e três ampères.
+
+17
+00:03:16,984 --> 00:03:34,960
+E o fator de serviço de um vírgula quinze, segundo o Mamede, representa uma potência adicional contínua. Por isso, o cabo do motor é dimensionado para o fator de serviço vezes a corrente nominal: um vírgula quinze vezes onze vírgula nove, treze vírgula sete ampères.
+
+18
+00:03:37,210 --> 00:03:44,002
+Agora, o condutor. O dois e meio aguenta? Depende do ambiente.
+
+19
+00:03:45,852 --> 00:03:59,772
+Se o cabo estivesse sozinho, a trinta graus, o dois e meio conduziria vinte e um ampères e passaria com folga. É por isso que todo mundo usa o dois e meio. Mas essa não é a realidade da nossa fábrica.
+
+20
+00:04:01,922 --> 00:04:14,786
+A quarenta graus, por causa das estufas, o fator de temperatura é zero vírgula oitenta e sete. Com três circuitos juntos no eletroduto, o fator de agrupamento é zero vírgula setenta.
+
+21
+00:04:15,136 --> 00:04:26,800
+O cabo não consegue trocar calor e perde capacidade: o dois e meio cai para doze vírgula oito ampères, menos que os treze vírgula sete que o motor precisa. Reprovado!
+
+22
+00:04:27,150 --> 00:04:44,814
+O cabo de quatro milímetros quadrados conduz dezessete vírgula um ampères e atende. E, embaixo, a queda de tensão: zero vírgula noventa por cento em regime, dentro do limite de quatro por cento, e dois por cento na partida, dentro do limite de dez.
+
+23
+00:04:47,064 --> 00:04:54,720
+Com o cabo definido, vem a proteção. São três problemas diferentes e três respostas diferentes.
+
+24
+00:04:55,070 --> 00:05:05,510
+O curto-circuito são milhares de ampères em milissegundos. Quem atua é o disparador magnético, que abre na hora, mas não pode desarmar na partida.
+
+25
+00:05:06,860 --> 00:05:24,524
+A sobrecarga é a esteira travada, a falta de fase, o rolamento ruim. No nosso painel, quem atua é o térmico do próprio disjuntor-motor, ajustado em treze vírgula sete ampères. E se ele desarmou, a regra é investigar a causa antes de rearmar.
+
+26
+00:05:25,674 --> 00:05:34,626
+E a manobra é o contator. Atenção, porque esse é um erro comum: o contator não protege, ele só obedece ao comando.
+
+27
+00:05:34,976 --> 00:05:54,080
+Na régua de baixo está a coordenação da NBR cinquenta e quatro dez: a corrente de projeto, treze vírgula sete, menor ou igual ao ajuste do disjuntor-motor, treze vírgula sete, menor ou igual à capacidade do cabo, dezessete vírgula um. A proteção fica entre a carga e o cabo.
+
+28
+00:05:54,430 --> 00:06:05,662
+E o disjuntor-motor faz as duas proteções em um só dispositivo. O magnético atua por volta de duzentos e oito ampères, bem acima dos oitenta e três da partida.
+
+29
+00:06:07,912 --> 00:06:17,728
+Agora, como chegar em cada componente da partida direta. Tudo parte de dois números da placa: a corrente nominal e o fator de serviço.
+
+30
+00:06:18,078 --> 00:06:37,758
+O disjuntor-motor: a corrente de projeto é treze vírgula sete ampères. Escolho a faixa de ajuste que contém esse valor, de onze a dezesseis ampères, ajusto o térmico em treze vírgula sete e confiro que o magnético fica acima da partida. Ele leva um bloco auxiliar com um contato aberto e um fechado.
+
+31
+00:06:38,908 --> 00:06:52,756
+O contator: categoria AC três, para motor de gaiola. A corrente de emprego precisa ser maior ou igual a treze vírgula sete, então uso o de dezoito ampères, com bobina de duzentos e vinte volts.
+
+32
+00:06:53,906 --> 00:07:03,986
+O cabo de força, pelos três critérios: seção mínima, capacidade e queda de tensão. Vale o maior: quatro milímetros quadrados.
+
+33
+00:07:04,936 --> 00:07:11,368
+O condutor de proteção acompanha a fase: quatro milímetros quadrados, verde e amarelo.
+
+34
+00:07:12,318 --> 00:07:21,462
+No comando, a carga é só a bobina e os sinaleiros, menos de um ampère. Por isso, disjuntor de comando de dois ampères...
+
+35
+00:07:22,412 --> 00:07:25,220
+e cabo de um milímetro quadrado.
+
+36
+00:07:26,170 --> 00:07:41,458
+As botoeiras: S um liga, contato aberto, verde. S zero desliga, contato fechado, vermelho. E S dois, a emergência tipo soco, com trava, como pede a NR doze.
+
+37
+00:07:42,408 --> 00:07:50,352
+E os sinaleiros: H um verde, motor ligado. H dois amarelo, disjuntor-motor desarmado.
+
+38
+00:07:52,602 --> 00:08:08,466
+Agora vamos ver tudo funcionando. À esquerda, o circuito de força, com o disjuntor-motor Q um, o contator K um e o motor. À direita, o comando em duzentos e vinte volts, protegido pelo disjuntor Q dois.
+
+39
+00:08:08,816 --> 00:08:28,688
+Reparem na numeração: um, três e cinco na entrada; dois, quatro e seis na saída; treze, catorze para contato aberto; onze, doze e vinte e um, vinte e dois para contato fechado; e A um, A dois na bobina. Antes de cada clique, eu pergunto para a turma: o que vai acontecer?
+
+40
+00:08:30,238 --> 00:08:47,254
+Quando eu aperto o S um, a bobina do K um é energizada, os contatos de força fecham e o motor gira. A lâmpada H um acende. E eu já soltei o botão: quem mantém o motor ligado é o contato de selo, K um, treze, catorze.
+
+41
+00:08:47,604 --> 00:08:51,180
+Agora, vamos simular a esteira travada.
+
+42
+00:08:51,930 --> 00:08:56,610
+A corrente sobe, e o térmico do disjuntor-motor aquece...
+
+43
+00:08:57,960 --> 00:09:12,000
+e o Q um desarma, abrindo as três fases. O auxiliar treze, catorze abre e o K um cai. O auxiliar vinte e um, vinte e dois fecha e acende o H dois, avisando que o disjuntor desarmou.
+
+44
+00:09:13,150 --> 00:09:21,262
+Quando eu rearmo o Q um, o motor não volta sozinho, porque o selo caiu. Isso evita uma partida inesperada.
+
+45
+00:09:22,812 --> 00:09:27,300
+Ligo de novo. E se alguém apertar a emergência...
+
+46
+00:09:28,450 --> 00:09:38,746
+o comando cai na hora, e o botão fica travado. É a NR doze. Para voltar, é preciso destravar e apertar o S um de novo.
+
+47
+00:09:41,796 --> 00:09:48,684
+Funciona. Mas dá para melhorar? Imaginem que a esteira fosse de vocês.
+
+48
+00:09:49,034 --> 00:09:56,954
+A partida direta é simples e barata, mas tem um pico de corrente de cerca de sete vezes a nominal e dá um tranco na correia.
+
+49
+00:09:58,104 --> 00:10:07,728
+O upgrade mais barato é o relé de falta de fase. Ele monitora as três fases e, se faltar uma, abre o comando antes de o motor aquecer.
+
+50
+00:10:08,878 --> 00:10:19,582
+A softstarter usa tiristores para aplicar uma rampa de tensão e limitar a corrente de partida, como mostra o Mamede no capítulo sete. Acaba o tranco na esteira.
+
+51
+00:10:20,732 --> 00:10:29,132
+E o inversor de frequência controla a velocidade e parte com uma corrente próxima da nominal, mas é mais caro e exige parametrização.
+
+52
+00:10:29,482 --> 00:10:40,714
+Para a nossa esteira, a partida direta atende, e o relé de falta de fase é o melhor custo-benefício. Os acionamentos eletrônicos ficam para as próximas unidades do curso.
+
+53
+00:10:42,964 --> 00:10:52,732
+Antes de colocar a mão no painel, segurança. A NR dez define a sequência de desenergização. Vamos montar juntos.
+
+54
+00:10:53,582 --> 00:10:57,638
+Primeiro, o seccionamento: desligar o Q um.
+
+55
+00:10:58,488 --> 00:11:07,920
+Depois, impedir a reenergização, com cadeado e etiqueta pessoais. É o famoso LOTO, e só quem colocou pode retirar.
+
+56
+00:11:08,770 --> 00:11:19,210
+Então, constatar a ausência de tensão com um detector aferido. Esse é o passo mais crítico: só considero o circuito desenergizado depois de testar.
+
+57
+00:11:20,060 --> 00:11:24,548
+Instalar o aterramento temporário, com equipotencialização.
+
+58
+00:11:25,398 --> 00:11:29,862
+Proteger os elementos energizados que ficam na zona controlada.
+
+59
+00:11:30,812 --> 00:11:42,668
+E, por fim, instalar a sinalização de impedimento de reenergização. Agora sim: circuito liberado para intervenção, sempre com os equipamentos de proteção individual.
+
+60
+00:11:44,918 --> 00:12:05,294
+Depois que o motor está funcionando, é preciso mantê-lo. Na manutenção corretiva, nós agimos depois da falha. Na preventiva, por calendário: reaperto de bornes, contatos, teste do botão de emergência e ajuste do térmico. E na preditiva, pela condição do equipamento.
+
+61
+00:12:05,644 --> 00:12:05,884
+O Mamede traz uma frase que todo técnico de manutenção deveria lembrar: uma elevação de dez graus na temperatura de isolação de um motor reduz a sua vida útil pela metade.
+
+62
+00:12:06,234 --> 00:12:29,634
+E como medir essa temperatura? Não pela carcaça, que engana. O livro mostra o método da resistência. No exemplo seis ponto quatro, o enrolamento tem zero vírgula duzentos e quarenta ohms a frio, a quarenta graus, e zero vírgula trezentos e um ohms a quente. Isso dá cerca de cento e dez graus, dentro da classe B.
+
+63
+00:12:31,784 --> 00:12:41,720
+Se a resistência a quente subir para zero vírgula trezentos e trinta, a temperatura passa de cento e quarenta graus, e a vida útil cai para uma fração do normal.
+
+64
+00:12:43,670 --> 00:12:53,198
+Por fim, o método de diagnóstico, que vocês vão usar na bancada: sintoma, hipótese, bloquear, medir, corrigir e testar.
+
+65
+00:12:55,448 --> 00:13:02,216
+Então, vamos voltar à pergunta do início. Este é o memorial que libera a Linha três.
+
+66
+00:13:02,566 --> 00:13:23,734
+Corrente de placa de onze vírgula nove ampères, cabo de quatro milímetros quadrados, condutor de proteção de quatro, queda de tensão de zero vírgula noventa por cento, disjuntor-motor de onze a dezesseis ampères ajustado em treze vírgula sete, contator de dezoito ampères, partida direta e intervenção com NR dez e bloqueio.
+
+67
+00:13:24,084 --> 00:13:34,452
+O palpite da turma era dois e meio. A solução técnica é quatro. Decisão técnica se justifica com norma e cálculo, não com costume.
+
+68
+00:13:36,702 --> 00:13:49,782
+Para verificar a aprendizagem, quatro perguntas rápidas. Primeira: a placa diz onze vírgula nove ampères e fator de serviço de um vírgula quinze. Qual a corrente mínima do cabo?
+
+69
+00:13:50,732 --> 00:13:55,772
+Treze vírgula sete: fator de serviço vezes a corrente nominal.
+
+70
+00:13:56,122 --> 00:14:02,386
+Segunda: a esteira travou e o motor ficou em sobrecarga. Quem deve desligar?
+
+71
+00:14:03,336 --> 00:14:07,968
+O disparador térmico. O contator só manobra.
+
+72
+00:14:08,318 --> 00:14:15,566
+Terceira: a esteira só anda enquanto o operador segura o S um. Qual o defeito mais provável?
+
+73
+00:14:16,516 --> 00:14:19,108
+O selo do K um não fecha.
+
+74
+00:14:19,458 --> 00:14:23,562
+E quarta: qual é o primeiro passo da desenergização?
+
+75
+00:14:24,512 --> 00:14:26,552
+O seccionamento.
+
+76
+00:14:28,802 --> 00:14:41,090
+Para fechar, cinco ideias. A placa dá a corrente e o fator de serviço, e o cabo é dimensionado para o fator de serviço vezes a corrente nominal, já corrigido pelo ambiente.
+
+77
+00:14:41,440 --> 00:14:53,968
+Temperatura e agrupamento reduzem a capacidade do cabo: o dois e meio de sempre nem sempre serve. A proteção fica entre a carga e o cabo, e o contator manobra, não protege.
+
+78
+00:14:54,318 --> 00:15:00,918
+Sem desenergização e bloqueio, nenhuma intervenção. E manutenção tem método.
+
+79
+00:15:01,268 --> 00:15:15,476
+Na próxima aula, no laboratório, vocês vão redimensionar o circuito para um motor de quinze cavalos a sessenta metros, montar a partida direta na bancada e diagnosticar defeitos reais, aplicando o bloqueio antes de cada medição.
+
+80
+00:15:15,826 --> 00:15:20,650
+Muito obrigado. Fico à disposição para perguntas.
+

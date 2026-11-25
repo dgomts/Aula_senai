@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.~*
+~$*
+
+# Capítulos do livro (direitos autorais, uso interno)
+[0-9].*.pdf
